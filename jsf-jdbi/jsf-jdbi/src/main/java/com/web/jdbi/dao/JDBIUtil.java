@@ -20,6 +20,7 @@ public class JDBIUtil {
     //http://jdbi.org/sql_object_api_batching/
     //http://jdbi.org/fluent_queries/
     //just for test
+
     public static void main(String args[]) {
         DBI dbi = new DBI("jdbc:mysql://localhost:3306/mydb",
                 "root",
