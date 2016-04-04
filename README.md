@@ -3,7 +3,8 @@ JSF 2.2 JDBI and MySQL full example, CRUD
 Project working under Apache Tomcat 8
 1. Create database in mysql using mydb.sql script
 2. Put following in tomcat context.xml file
-#<Resource
+####
+<Resource
    # name = "jdbc/mysql"
    # auth = "Container"
    # type = "javax.sql.DataSource"
@@ -15,6 +16,7 @@ Project working under Apache Tomcat 8
    # username = "root"
    # password = "root"       
 #/>
+#########
 
 You can change mysql user/pass if yours is different.
 Run web project.
